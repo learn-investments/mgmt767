@@ -18,7 +18,9 @@ website:
       - text: Notebooks
         href: https://github.com/learn-investments/mgmt767/tree/main/notebooks
       - text: Learn Investments
-        href: https://learn-investments.rice-business.org      
+        href: https://learn-investments.rice-business.org
+      - text: Syllabus
+        file: lab_syllabus.pdf      
         
 format: 
   html:
