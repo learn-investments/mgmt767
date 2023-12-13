@@ -70,10 +70,6 @@ comprehensive group presentation of the strategy design, implementation, and per
 | Apr 8/10| |
 | Apr 15/17 | Presentation: strategy design, performance evaluation, and implementation |
 
-
-
-
-
 #### Grading
 
 Grades will be determined using the following weighting scheme.
