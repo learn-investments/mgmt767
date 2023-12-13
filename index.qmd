@@ -4,9 +4,84 @@
 
 #### Instructors
 
-[Kerry Back](https://kerryback.com) (<a href="mailto:kerryback@gmail.com">kerryback@gmail.com</a>)<br>
-J. Howard Creekmore Professor of Finance and Professor of Economics
-<br><br>
-[Kevin Crotty](https://kevin-crotty.com/)(<a href="mailto:kevin.p.crotty@rice.edu">kevin.p.crotty@rice.edu</a>)<br>
-Associate Professor of Finance<br>
+Kerry Back (<a href="mailto:kerryback@gmail.com">kerryback@gmail.com</a>)<br>
+Kevin Crotty (<a href="mailto:kevin.p.crotty@rice.edu">kevin.p.crotty@rice.edu</a>)
+
+#### Class Meeting
+
+Room 216, McNair Hall<br>
+MW 2:15 -- 3:45
+
+#### Course Prerequisites
+
+- All students must have completed the core Finance, Accounting, and Data Analysis courses in their program.  
+
+- *Graduate*: Students should have completed MGMT 638 (Data-Driven Investments: Equity).
+
+- *Undergraduate*: Students should have completed BUSI 448 (Investments).
+
+- Exceptions to these requirements can be granted in special circumstances.  To request an exception, email either instructor.
+
+#### Course Description
+
+This course is part of the Data-Driven Investments curriculum designed to equip students with an
+analytical quantitative investment toolkit. Students will work in groups to develop, test, and implement
+investment strategies using Python. The investment strategies will be driven by a range of datasets
+provided by the instructors. The instructors will provide examples of Python programs implementing
+investment strategies.
+
+Each group will first select a primary dataset or set of datasets to utilize. In the first part of the course,
+students will explore the data and develop trading ideas. The instructors will provide guidance on what
+types of strategies are typically employed using a given dataset.
+
+In the second part of the course, students will implement their chosen strategy using a paper trading
+simulation. The course will emphasize understanding the sources of investment performance. This will
+include analyses of factor and sector exposures as well as attribution analysis. Student groups will report
+weekly on performance evaluation and strategy implementation. The course culminates in a
+comprehensive group presentation of the strategy design, implementation, and performance evaluation.
+
+#### Data and Potential Investment Strategies
+
+1. Financial ratios
+2. Past price signals (momentum/reversals)
+3. Analyst recommendation revisions
+4. Corporate insider trades
+5. Short interest
+6. Corporate events (buybacks, splits, spin-offs)
+
+#### Course Schedule
+
+| Week  | Lab Activities & Notes  |
+|--------|--------|
+| Jan 8/10  | *Only undergraduates this week*<br>Characteristics-based strategies<br>Backtesting<br>Alphas   |
+| Jan 15/17   | *No class on Monday (MLK holiday)*<br>Intro to datasets and strategies<br>Form groups   |
+| Jan 22/24 | Intro to Alpaca paper trading<br>Machine learning for characteristics-based strategies   |
+| Jan 29/31<br>Feb 5/7 | Groups explore datasets and develop potential investment ideas|
+| Thursday, Feb 8 | *No class - We will not use the allotted make-up day*|
+| Feb 12/14 | Groups finalize strategies for paper trading<br>Report on backtesting on Wednesday|
+| Remainder of semester| Conduct paper trading<br>Refine strategies<br>Report weekly performance evaluation on Wednesdays|
+|Feb 19/21| |
+| Feb 26/28 | *Only undergraduates on Wednesday* |
+| Mar 4/6 | *Only undergraduates this week* |
+| Mar 11/13 | *Only MBAs this week* |
+| Mar 18/20 | |
+| Mar 25/27 | |
+| Apr 1/3 | |  
+| Apr 8/10| |
+| Apr 15/17 | Presentation: strategy design, performance evaluation, and implementation |
+
+
+
+
+
+#### Grading
+
+Grades will be determined using the following weighting scheme.
+
+| Assessment | Weights | Group or Individual?| 
+|--------|--------|-------|
+| Initial Strategy Presentation | 20% | Group |
+| Weekly Performance and Trading Reports | 50% | Group |
+| Final Presentation | 20% | Group |
+| Peer Reviews | 10% | Individual |
 

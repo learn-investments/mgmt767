@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -53,9 +58,11 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">MGMT 767</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -69,9 +76,6 @@ ul.task-list{list-style: none;}
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://learn-investments.rice-business.org">Learn Investments</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./lab_syllabus.pdf">Syllabus</a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -92,7 +96,153 @@ ul.task-list{list-style: none;}
 <h2 class="anchored" data-anchor-id="data-driven-investments-lab-spring-2024">Data-Driven Investments Lab<br>Spring 2024<br><br><img src="images/RiceBusiness-transparent-logo-sm.png" class="img-fluid" style="width:30.0%"></h2>
 <section id="instructors" class="level4">
 <h4 class="anchored" data-anchor-id="instructors">Instructors</h4>
-<p><a href="https://kerryback.com">Kerry Back</a> (<a href="mailto:kerryback@gmail.com">kerryback@gmail.com</a>)<br> J. Howard Creekmore Professor of Finance and Professor of Economics <br><br> <a href="https://kevin-crotty.com/">Kevin Crotty</a>(<a href="mailto:kevin.p.crotty@rice.edu">kevin.p.crotty@rice.edu</a>)<br> Associate Professor of Finance<br></p>
+<p>Kerry Back (<a href="mailto:kerryback@gmail.com">kerryback@gmail.com</a>)<br> Kevin Crotty (<a href="mailto:kevin.p.crotty@rice.edu">kevin.p.crotty@rice.edu</a>)</p>
+</section>
+<section id="class-meeting" class="level4">
+<h4 class="anchored" data-anchor-id="class-meeting">Class Meeting</h4>
+<p>Room 216, McNair Hall<br> MW 2:15 – 3:45</p>
+</section>
+<section id="course-prerequisites" class="level4">
+<h4 class="anchored" data-anchor-id="course-prerequisites">Course Prerequisites</h4>
+<ul>
+<li><p>All students must have completed the core Finance, Accounting, and Data Analysis courses in their program.</p></li>
+<li><p><em>Graduate</em>: Students should have completed MGMT 638 (Data-Driven Investments: Equity).</p></li>
+<li><p><em>Undergraduate</em>: Students should have completed BUSI 448 (Investments).</p></li>
+<li><p>Exceptions to these requirements can be granted in special circumstances. To request an exception, email either instructor.</p></li>
+</ul>
+</section>
+<section id="course-description" class="level4">
+<h4 class="anchored" data-anchor-id="course-description">Course Description</h4>
+<p>This course is part of the Data-Driven Investments curriculum designed to equip students with an analytical quantitative investment toolkit. Students will work in groups to develop, test, and implement investment strategies using Python. The investment strategies will be driven by a range of datasets provided by the instructors. The instructors will provide examples of Python programs implementing investment strategies.</p>
+<p>Each group will first select a primary dataset or set of datasets to utilize. In the first part of the course, students will explore the data and develop trading ideas. The instructors will provide guidance on what types of strategies are typically employed using a given dataset.</p>
+<p>In the second part of the course, students will implement their chosen strategy using a paper trading simulation. The course will emphasize understanding the sources of investment performance. This will include analyses of factor and sector exposures as well as attribution analysis. Student groups will report weekly on performance evaluation and strategy implementation. The course culminates in a comprehensive group presentation of the strategy design, implementation, and performance evaluation.</p>
+</section>
+<section id="data-and-potential-investment-strategies" class="level4">
+<h4 class="anchored" data-anchor-id="data-and-potential-investment-strategies">Data and Potential Investment Strategies</h4>
+<ol type="1">
+<li>Financial ratios</li>
+<li>Past price signals (momentum/reversals)</li>
+<li>Analyst recommendation revisions</li>
+<li>Corporate insider trades</li>
+<li>Short interest</li>
+<li>Corporate events (buybacks, splits, spin-offs)</li>
+</ol>
+</section>
+<section id="course-schedule" class="level4">
+<h4 class="anchored" data-anchor-id="course-schedule">Course Schedule</h4>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Week</th>
+<th>Lab Activities &amp; Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Jan 8/10</td>
+<td><em>Only undergraduates this week</em><br>Characteristics-based strategies<br>Backtesting<br>Alphas</td>
+</tr>
+<tr class="even">
+<td>Jan 15/17</td>
+<td><em>No class on Monday (MLK holiday)</em><br>Intro to datasets and strategies<br>Form groups</td>
+</tr>
+<tr class="odd">
+<td>Jan 22/24</td>
+<td>Intro to Alpaca paper trading<br>Machine learning for characteristics-based strategies</td>
+</tr>
+<tr class="even">
+<td>Jan 29/31<br>Feb 5/7</td>
+<td>Groups explore datasets and develop potential investment ideas</td>
+</tr>
+<tr class="odd">
+<td>Thursday, Feb 8</td>
+<td><em>No class - We will not use the allotted make-up day</em></td>
+</tr>
+<tr class="even">
+<td>Feb 12/14</td>
+<td>Groups finalize strategies for paper trading<br>Report on backtesting on Wednesday</td>
+</tr>
+<tr class="odd">
+<td>Remainder of semester</td>
+<td>Conduct paper trading<br>Refine strategies<br>Report weekly performance evaluation on Wednesdays</td>
+</tr>
+<tr class="even">
+<td>Feb 19/21</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Feb 26/28</td>
+<td><em>Only undergraduates on Wednesday</em></td>
+</tr>
+<tr class="even">
+<td>Mar 4/6</td>
+<td><em>Only undergraduates this week</em></td>
+</tr>
+<tr class="odd">
+<td>Mar 11/13</td>
+<td><em>Only MBAs this week</em></td>
+</tr>
+<tr class="even">
+<td>Mar 18/20</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Mar 25/27</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Apr 1/3</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Apr 8/10</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Apr 15/17</td>
+<td>Presentation: strategy design, performance evaluation, and implementation</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="grading" class="level4">
+<h4 class="anchored" data-anchor-id="grading">Grading</h4>
+<p>Grades will be determined using the following weighting scheme.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Assessment</th>
+<th>Weights</th>
+<th>Group or Individual?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Initial Strategy Presentation</td>
+<td>20%</td>
+<td>Group</td>
+</tr>
+<tr class="even">
+<td>Weekly Performance and Trading Reports</td>
+<td>50%</td>
+<td>Group</td>
+</tr>
+<tr class="odd">
+<td>Final Presentation</td>
+<td>20%</td>
+<td>Group</td>
+</tr>
+<tr class="even">
+<td>Peer Reviews</td>
+<td>10%</td>
+<td>Individual</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
@@ -168,7 +318,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
