@@ -1,3 +1,15 @@
 ## Slide Decks<br>Data-Driven Investments Lab<br>Rice University<br>
 
-[Alpaca Trading](./docs/01-alpaca.html) 
+[1. Alpaca Trading](01-alpaca.html) 
+
+[2. Rice Database](02-rice-database.html)
+
+[3. Green-Hand-Zhang Database](03-ghz-database.html)
+
+[4. Using Quandl Data](04-quandl.html)
+
+[5. Insider Trading](05-insider-trading.html)
+
+[6. Risk Management](06-risk-management.html)
+
+
