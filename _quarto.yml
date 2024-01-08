@@ -10,7 +10,7 @@ website:
   search: false  
   navbar:
     search: false
-    title: MGMT 767
+    title: MGMT 767 / BUSI 449
     file: index.qmd
     right:
       - text: Slides
