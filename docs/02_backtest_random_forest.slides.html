@@ -14682,8 +14682,8 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li>The goal is to illustrate the process of evaluating a model for combining characteristics to predict stock returns.</li>
-<li>A model has parameters (coefficients) that must be estimated from past data.</li>
+<li>We want to evaluate a model for combining characteristics to predict stock returns.</li>
+<li>A model has parameters (coefficients) that must be estimated from past data.  It must be &quot;trained.&quot;</li>
 <li>It may also have hyperparameters that should be tuned from past data (more later).</li>
 <li>If we wanted to apply a model today, we would use all past data to estimate the parameters.  Then look at today's characteristic values and run them through the model to predict returns.</li>
 </ul>
@@ -14698,15 +14698,32 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>To evaluate how a model would have worked in the past, we should recreate this at each past portfolio revision date:</p>
 <ul>
-<li>To evaluate how a model would have worked in the past, we should recreate this at each past portfolio revision date:<ul>
-<li>Estimate the parameters based on the data prior to that date.</li>
+<li>Estimate the parameters (train the model) based on the data prior to that date.</li>
 <li>Look at the characteristic values at that date and run them through the model to predict returns.</li>
 <li>Form a portfolio based on the predictions.</li>
 <li>Calculate the return of the portfolio up to the next portfolio revision date.</li>
 <li>Rinse and repeat.</li>
 </ul>
-</li>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Once we've computed historical returns from training and applying the model in this way, we need to evaluate them.</p>
+<ul>
+<li>Average return</li>
+<li>Sharpe ratio</li>
+<li>CAPM alpha</li>
+<li>Factor model attribution and alpha</li>
+<li>Maximum drawdown</li>
 </ul>
 
 </div>
