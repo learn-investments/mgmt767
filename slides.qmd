@@ -1,3 +1,7 @@
 ## Slide Decks<br>Data-Driven Investments Lab<br>Spring 2024<br><br>![](images/RiceBusiness-transparent-logo-sm.png){width=30%} 
 
 [1. Introduction to Quantitative Equity Strategies](01_intro.slides.html){target="_blank"} [(pdf)](pdfs/01_intro.slides.pdf){target="_blank"}<br>
+
+[2a. Data](02_data.slides.html){target="_blank"} [(pdf)](pdfs/02_data.slides.pdf){target="_blank"}<br>
+
+[2b. Backtesting a Random Forest](02_backtest_random_forest.slides.html){target="_blank"} [(pdf)](pdfs/02_backtest_random_forest.slides.pdf){target="_blank"}<br>
