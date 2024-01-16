@@ -5,3 +5,5 @@
 [2a. Data](02_data.slides.html){target="_blank"} [(pdf)](pdfs/02_data.slides.pdf){target="_blank"}<br>
 
 [2b. Backtesting a Random Forest](02_backtest_random_forest.slides.html){target="_blank"} [(pdf)](pdfs/02_backtest_random_forest.slides.pdf){target="_blank"}<br>
+
+[3. Paper Trading with Alpaca](03_alpaca.html) <br>
