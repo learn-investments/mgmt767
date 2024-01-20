@@ -7,3 +7,5 @@
 [2b. Backtesting a Random Forest](02_backtest_random_forest.slides.html){target="_blank"} [(pdf)](pdfs/02_backtest_random_forest.slides.pdf){target="_blank"}<br>
 
 [3. Paper Trading with Alpaca](03_alpaca.html){target="_blank"} [(pdf)](pdfs/03_alpaca.slides.pdf){target="_blank"} <br>
+
+[4. Trades by Corporate Insiders](04_insider_trading.html){target="_blank"} [(pdf)](pdfs/04_insider_trading.slides.pdf){target="_blank"} <br>
