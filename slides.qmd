@@ -9,3 +9,7 @@
 [3. Paper Trading with Alpaca](03_alpaca.html){target="_blank"} [(pdf)](pdfs/03_alpaca.slides.pdf){target="_blank"} <br>
 
 [4. Trades by Corporate Insiders](04_insider_trading.html){target="_blank"} [(pdf)](pdfs/04_insider_trading.slides.pdf){target="_blank"} <br>
+
+[5. Moving Averages](05-moving_averages.html){target="_blank"} [(pdf)](pdfs/05-moving_averages.slides.pdf){target="_blank"} <br>
+
+[6. Rank and Trade](06_rank_trade.html){target="_blank"} [(pdf)](pdfs/06-rank_trade.slides.pdf){target="_blank"} <br>
