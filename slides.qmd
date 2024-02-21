@@ -12,4 +12,6 @@
 
 [5. Moving Averages](05-moving_averages.html){target="_blank"} [(pdf)](pdfs/05-moving_averages.slides.pdf){target="_blank"} <br>
 
-[6. Rank and Trade](06-rank_trade.slides.html){target="_blank"} [(pdf)](pdfs/06-rank_trade.slides.pdf){target="_blank"} <br>
+[6. Rank and Trade](06-rank_trade.slides.html){target="_blank"} [(pdf)](pdfs/06-rank_trade.slides.pdf){target="_blank"} <br><br>
+
+[Jensen-Kelly-Pedersen](Jensen-Kelly-Pedersen.pdf){target="_blank"} 
